@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.control-label {
+  width: 130px;
+  display: inline-block;
+  text-align: left;
+}
+
+.control-value {
+  width: 50px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.chevron {
+  border-right: 3px solid; 
+  border-bottom: 3px solid;
+  height: 0.45em;
+  width: 0.45em;
+  margin-right: 5px;
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+.chevron.down {
+  transform: rotate(45deg);
+}
+
+.img-number {
+  padding: 15px;
+  font-size: 16px;
+  position: absolute;
+  text-shadow: 0 0 5px black;
+}
+
+.img-select {
+  padding: 5px;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+.img-select.selected {
+  background-color: blue;
+}
+.img-select input {
+  cursor: pointer;
+}
+
+.show-all-images label {
+  cursor: pointer;
+}
+.show-selected-images label {
+  cursor: default;
+}
+
+.screen-table tr th {
+  min-width: 242px;
+}
+.screen-table tr td:first-child {
+  position: relative;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h2 {
+  margin-bottom: 0;
